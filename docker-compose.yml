@@ -3,7 +3,7 @@ version: '3.7'
 services:
   account-service:
     build: ./account-svc
-    image: boboweike/account-svc
+    image: qzeng2490/account-svc
     environment:
       - SPRING_PROFILES_ACTIVE
       - SERVER_PORT
