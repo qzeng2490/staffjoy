@@ -1,4 +1,4 @@
-FROM node:alpine as builder
+FROM node:12.13-alpine as builder
 WORKDIR '/build'
 COPY myaccount ./myaccount
 COPY resources ./resources
