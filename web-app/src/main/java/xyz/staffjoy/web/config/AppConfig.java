@@ -15,9 +15,8 @@ import java.util.concurrent.Executor;
 @Import(value = StaffjoyWebConfig.class)
 @SuppressWarnings(value = "Duplicates")
 public class AppConfig {
-
+ 
     public static final String ASYNC_EXECUTOR_NAME = "asyncExecutor";
-
     @Bean(name=ASYNC_EXECUTOR_NAME)
     public Executor asyncExecutor() {
         ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
